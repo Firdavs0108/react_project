@@ -18,8 +18,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-
-
 `
 export const SidebarTitle = styled.span`
 margin: 10px;
@@ -55,13 +53,20 @@ margin-bottom: 30px;
 `
 
 export const SidebarListItem = styled.li`
-list-style: none;
+
 display: inline-block;
+width: 50%;
+margin-top: 15px;
+cursor: pointer;
 
 
 `
 
 export const SidebarSocial = styled.div`
+margin-top: 15px;
+width: 250px;
+display: flex;
+justify-content: center;
 
 
 `
@@ -73,8 +78,6 @@ export const SidebarSocialList = styled.i`
 
 export const P = styled.p`
 font-family: 'Roboto Condensed', sans-serif;
-
-
 
 `
 

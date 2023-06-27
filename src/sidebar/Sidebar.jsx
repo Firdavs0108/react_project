@@ -18,13 +18,13 @@ export const Sidebar = () => {
         <SidebarTitle> CATEGORIES </SidebarTitle>
         <SidebarList>
 
-        </SidebarList>
             <SidebarListItem>Life</SidebarListItem>
             <SidebarListItem>Music</SidebarListItem>
             <SidebarListItem>Style</SidebarListItem>
             <SidebarListItem>Sport</SidebarListItem>
             <SidebarListItem>Tech</SidebarListItem>
             <SidebarListItem>Cinema</SidebarListItem>
+        </SidebarList>
             
         </SidebarItem>
         
@@ -32,10 +32,10 @@ export const Sidebar = () => {
 
             <SidebarTitle> FOLLOW US </SidebarTitle>
             <SidebarSocial>
-                 <i className="fa-brands fa-facebook"></i>
-                 <i className="fa-brands fa-twitter"></i>
-                 <i className="fa-brands fa-square-pinterest"></i>
-                 <i className="fa-brands fa-square-instagram"></i>
+                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}}  class="fa-brands fa-square-facebook"></i>
+                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}} className="fa-brands fa-twitter"></i>
+                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}} className="fa-brands fa-square-pinterest"></i>
+                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}} className="fa-brands fa-square-instagram"></i>
             </SidebarSocial>
             
         </SidebarItem>

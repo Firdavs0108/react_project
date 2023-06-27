@@ -5,7 +5,7 @@ const TopBar = () => {
   return (
     <div className='top'>
         <div className="topLeft">
-        <i className="topIcon fa-brands fa-facebook"></i>
+        <i className="topIcon fa-brands fa-square-facebook"></i>
         <i className="topIcon fa-brands fa-twitter"></i>
         <i className="topIcon fa-brands fa-square-pinterest"></i>
         <i className="topIcon fa-brands fa-square-instagram"></i>
