@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 
-export const Posts = styled.div`
-margin-top: 60px;
+export const Container = styled.div`
+
+    flex: 9;
 
 `

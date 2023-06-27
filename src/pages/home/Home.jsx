@@ -1,12 +1,21 @@
 import React from 'react'
-import {} from './style'
+import {Container} from './style'
 import Header from '../../header/Header'
+import Posts from '../../posts/Posts'
+import { Sidebar } from '../../sidebar/Sidebar'
+
 
 export default function Home() {
   return (
-    <div>
-        <Header/>
-        homepage
-    </div>
+       <>
+       
+      <Header/>
+      
+    <Container>
+       <Posts/>
+       <Sidebar/>
+    </Container>
+       
+       </>
   )
 }

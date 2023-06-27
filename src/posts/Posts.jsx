@@ -1,11 +1,13 @@
 import React from 'react'
-import {Posts} from './style'
+import {Container} from './style'
 
 export const Posts = () => {
   return (
-    <Posts>
+    <Container>
+        posts
         
-        
-    </Posts>
+    </Container>
   )
 }
+
+export default Posts
