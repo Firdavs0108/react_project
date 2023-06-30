@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,HeaderTitles,Span, Span1, Img} from './style'
-import img2 from '../assets/img/img2.jpg'
+import img2 from '../../assets/img/img2.jpg'
 const Header = () => {
   return (
     <Container>

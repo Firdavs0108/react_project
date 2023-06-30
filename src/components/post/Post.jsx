@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,Img,PostInfo, PostCats, PostCatsInfo,PostTitle, PostDate, PostDesc } from './style'
-import img4 from '../assets/img/img4.jpg'
+import img4 from '../../assets/img/img4.jpg'
 
 const Post = () => {
   return (

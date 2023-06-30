@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, SidebarItem, SidebarTitle, Img, SidebarList, SidebarListItem, SidebarSocial,  SidebarSocialList,P} from './style'
-import img9 from '../assets/img/img9.jpg'
+import img9 from '../../assets/img/img9.jpg'
 export const Sidebar = () => {
   return (
     <Container>

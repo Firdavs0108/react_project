@@ -1,11 +1,13 @@
 import React from 'react'
 import {Container} from './style'
+import Sidebar from '../../components/sidebar/Sidebar'
 
 
 const Single = () => {
   return (
     <Container>
-        aa
+        {/* post */}
+        <Sidebar/>
     </Container>
   )
 }
