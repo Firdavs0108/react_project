@@ -62,9 +62,21 @@ export const Forms = styled.input`
     height: 30px;
     border: none;
     border-bottom: 1px solid lightgray;
+    :focus{
+        outline:none
+    }
     
 `
 
 export const SettingsSubmit = styled.button`
-    
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
 `
