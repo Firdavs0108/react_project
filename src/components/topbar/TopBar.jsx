@@ -1,5 +1,5 @@
 import './topbar.css'
-import img2 from '../assets/img/img2.jpg'
+import img2 from '../../assets/img/img2.jpg'
 
 const TopBar = () => {
   return (
