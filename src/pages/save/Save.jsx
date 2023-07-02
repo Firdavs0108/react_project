@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, LoginButton, LoginForm, LoginRegButton, LoginTitle, FormLabel,LoginInput } from './style'
+import { Link } from 'react-router-dom'
 
 const Save = () => {
   return (
@@ -12,7 +13,10 @@ const Save = () => {
             <LoginInput type="text" placeholder=' Enter Your Password..'/>
             <LoginButton>Login</LoginButton>
         </LoginForm>
-        <LoginRegButton>Register</LoginRegButton>
+        <LoginRegButton>
+            <Link className='link' to='/register'>Register</Link>
+        </LoginRegButton>
+        
     </Container>
   )
 }

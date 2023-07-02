@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, RegisterButton, RegisterForm, RegisterLogButton, RegisterTitle, FormLabel,RegisterInput } from './style'
+import { Link } from 'react-router-dom'
 
 const Register = () => {
   return (
@@ -14,7 +15,9 @@ const Register = () => {
             <RegisterInput type="text" placeholder=' Enter Your Password..'/>
             <RegisterButton>Register</RegisterButton>
         </RegisterForm>
-        <RegisterLogButton>Login</RegisterLogButton>
+        <RegisterLogButton>
+        <Link className='link' to='/save'>Login</Link>
+        </RegisterLogButton>
     </Container>
   )
 }
