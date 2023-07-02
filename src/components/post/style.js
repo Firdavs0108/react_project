@@ -12,6 +12,7 @@ width: 100%;
 height: 280px;
 object-fit: cover;
 border-radius: 7px;
+
 `
 
 export const PostInfo = styled.div`

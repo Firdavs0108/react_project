@@ -1,5 +1,5 @@
 import './topbar.css'
-import img2 from '../../assets/img/img2.jpg'
+import img3 from '../../assets/img/img3.jpg'
 
 const TopBar = () => {
   return (
@@ -21,7 +21,7 @@ const TopBar = () => {
             </ul>
         </div>
         <div className="topRight">
-            <img className='topImg' src={img2} 
+            <img className='topImg' src={img3} 
             alt="" />
 
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>

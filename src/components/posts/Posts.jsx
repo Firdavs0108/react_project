@@ -1,18 +1,17 @@
-import React from 'react'
-import {Container} from './style'
-import Post from '../post/Post'
+import React from 'react';
+import { Container } from './style';
+import Post from '../post/Post';
+import { cardInfo } from './data';
 
 export const Posts = () => {
   return (
     <Container>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
-        
+      {cardInfo.map((value) => (
+        <Post info={value} key={value.id} />
+      ))}
     </Container>
-  )
-}
+  );
+};
 
-export default Posts
+export default Posts;
+

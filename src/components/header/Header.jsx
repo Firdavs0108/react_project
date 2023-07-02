@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,HeaderTitles,Span, Span1, Img} from './style'
-import img2 from '../../assets/img/img2.jpg'
+import img5 from '../../assets/img/img2.jpg'
 const Header = () => {
   return (
     <Container>
@@ -13,7 +13,7 @@ const Header = () => {
 
         </HeaderTitles>
 
-        <Img src={img2} alt="" />
+        <Img src={img5} alt="" />
 
      
 
