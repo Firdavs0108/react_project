@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img10 from '../../assets/img/img11.jpg'
+import img10 from '../../assets/img/img10.jpg'
 
 
 
@@ -16,13 +16,13 @@ export const Container = styled.div`
 
 
 `
-export const LoginTitle = styled.span`
+export const RegisterTitle = styled.span`
    font-size: 50px;
    color: black;
 
 `
 
-export const LoginForm = styled.form`
+export const RegisterForm = styled.form`
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -35,17 +35,19 @@ export const FormLabel = styled.label`
     font-size: 18px;
 `
 
-export const LoginInput = styled.input`
+export const RegisterInput = styled.input`
     padding: 10px 0;
     background-color: white;
     border: none;
+    font-size: 13px;
+    width: 250px
 
 `
 
-export const LoginButton = styled.button`
+export const RegisterButton = styled.button`
     margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
+    background-color: teal;
     border: none;
     color: white;
     border-radius: 10px;
@@ -53,11 +55,11 @@ export const LoginButton = styled.button`
 
 `
 
-export const LoginRegButton = styled.button`
+export const RegisterLogButton = styled.button`
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: lightcoral;
     cursor: pointer;
     border: none;
     padding: 10px;
