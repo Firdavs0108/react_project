@@ -1,10 +1,3 @@
-import TopBar from "./components/topbar/TopBar";
-import Home from './pages/home/Home'
-import Settings from "./pages/settings/Settings";
-import Single from "./pages/single/Single";
-import Write from "./pages/write/Write";
-import Save from "./pages/save/Save";
-import Register from "./pages/register/Register";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,17 +5,25 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import TopBar from "./components/topbar/TopBar";
+import Home from './pages/home/Home';
+import Register from "./pages/register/Register";
+import Save from "./pages/save/Save";
 
 function App() {
   return (
     <Router>
       <TopBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/save" element={<Save />} />
+        
       </Routes>
     </Router>
   );
 }
 
 export default App;
+
 

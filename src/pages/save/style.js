@@ -39,6 +39,7 @@ export const LoginInput = styled.input`
     padding: 10px 0;
     background-color: white;
     border: none;
+    width: 250px;
 
 `
 

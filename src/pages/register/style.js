@@ -10,8 +10,8 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     background: linear-gradient(
-    rgba(225,255,255,0.5), 
-    rgba(225,255,255,0.5)), url(${img10});
+    rgba(225,255,255,0.4), 
+    rgba(225,255,255,0.4)), url(${img10});
     background-size:cover;
 
 
@@ -37,10 +37,10 @@ export const FormLabel = styled.label`
 
 export const RegisterInput = styled.input`
     padding: 10px 0;
-    background-color: white;
+    background-color: lightgreen;
     border: none;
     font-size: 13px;
-    width: 250px
+    width: 250px;
 
 `
 
