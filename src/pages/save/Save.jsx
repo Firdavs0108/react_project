@@ -8,7 +8,7 @@ const Save = () => {
             <label>Email</label>
             <input type="text" placeholder='Enter Your Email..' />
             <label>Password</label>
-            <input type="text" placeholder=' Enter Your Password..' />
+            <input type="text" placeholder=' Enter Your Password..'/>
         </LoginForm>
     </Container>
   )
