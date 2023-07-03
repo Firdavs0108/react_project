@@ -7,9 +7,9 @@ export const Sidebar = () => {
 
         <SidebarItem>
 
-            <SidebarTitle> ABOUT ME </SidebarTitle>
+            <SidebarTitle> ABOUT US </SidebarTitle>
             <Img src={img9} alt="" />
-            <P>Hello, my name is Jesica and I am writing to introduce myself. My interests include photography, art, and music. </P>
+            <P>Travel with us around the world easy and cheap. Consumers want to create itineraries, access travel guides, and book flights and hotel rooms conveniently. Your travel technology provider can translate whatever service you want to deliver into a web app. </P>
 
         </SidebarItem>
 
@@ -18,12 +18,13 @@ export const Sidebar = () => {
         <SidebarTitle> CATEGORIES </SidebarTitle>
         <SidebarList>
 
-            <SidebarListItem>Life</SidebarListItem>
-            <SidebarListItem>Music</SidebarListItem>
-            <SidebarListItem>Style</SidebarListItem>
-            <SidebarListItem>Sport</SidebarListItem>
-            <SidebarListItem>Tech</SidebarListItem>
-            <SidebarListItem>Cinema</SidebarListItem>
+            <SidebarListItem> <a style={{textDecoration: 'none', color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> Hotels  </a></SidebarListItem>
+            <SidebarListItem> <a style={{textDecoration: 'none', color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> Flights </a></SidebarListItem>
+            <SidebarListItem> <a style={{textDecoration: 'none', color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> Trains  </a></SidebarListItem>
+            <SidebarListItem> <a style={{textDecoration: 'none', color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> Attractions&Tours </a></SidebarListItem>
+            <SidebarListItem> <a style={{textDecoration: 'none', color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> Car Rentals </a></SidebarListItem>
+            <SidebarListItem> <a style={{textDecoration: 'none', color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> Airport Transfers  </a></SidebarListItem>
+           
         </SidebarList>
             
         </SidebarItem>
@@ -32,10 +33,11 @@ export const Sidebar = () => {
 
             <SidebarTitle> FOLLOW US </SidebarTitle>
             <SidebarSocial>
-                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}}  class="fa-brands fa-square-facebook"></i>
-                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}} className="fa-brands fa-twitter"></i>
-                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}} className="fa-brands fa-square-pinterest"></i>
-                 <i style={{fontSize:'16px', marginLeft:'10px', cursor: 'pointer'}} className="fa-brands fa-square-instagram"></i>
+            <a style={{color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{fontSize:'16px', marginLeft:'10px', Color: 'blue' , cursor: 'pointer'}} className=" fa-brands fa-square-facebook"></i>  </a> 
+            <a style={{color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{fontSize:'16px', marginLeft:'10px', Color: 'blue' ,cursor: 'pointer'}} className="fa-brands fa-twitter"></i>  </a> 
+            <a style={{color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{fontSize:'16px', marginLeft:'10px', Color: 'blue' ,cursor: 'pointer'}} className="fa-brands fa-square-pinterest"></i>  </a> 
+            <a style={{color:'blue'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{fontSize:'16px', marginLeft:'10px', Color: 'blue' ,cursor: 'pointer'}} className="fa-brands fa-square-instagram"></i>  </a> 
+                 
             </SidebarSocial>
             
         </SidebarItem>

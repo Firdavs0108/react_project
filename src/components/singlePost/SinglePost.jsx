@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Wrapper,Img, SinglePostTitle, SinglePostEdit, SinglePostInfo, SinglePostAuthor, SinglePostDate, SinglePostDesc} from './style'
-import img6 from '../../assets/img/img6.jpg'
+import img6 from '../../assets/img/img9.jpg'
 
 
 const SinglePost = () => {

@@ -7,10 +7,12 @@ const TopBar = () => {
   return (
     <div className='top'>
         <div className="topLeft">
-        <i className="topIcon fa-brands fa-square-facebook"></i>
-        <i className="topIcon fa-brands fa-twitter"></i>
-        <i className="topIcon fa-brands fa-square-pinterest"></i>
-        <i className="topIcon fa-brands fa-square-instagram"></i>
+       <a  href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{color:'blue'}} className="topIcon fa-brands fa-square-facebook"></i>  </a> 
+       <a  href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{color:'blue'}} className="topIcon fa-brands fa-twitter"></i>  </a> 
+       <a  href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{color:'blue'}} className="topIcon fa-brands fa-square-pinterest"></i>  </a> 
+       <a  href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <i style={{color:'blue'}} className="topIcon fa-brands fa-square-instagram"></i>  </a> 
+        
+  
 
         </div>
         <div className="topCentre">

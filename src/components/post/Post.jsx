@@ -18,7 +18,7 @@ const Post = (props) => {
                  {props.info.title}
             </PostTitle>
             <hr />
-            <PostDate>{props.info.time}</PostDate>
+            {/* <PostDate>{props.info.watched}</PostDate> */}
         </PostInfo>
                 <PostDesc>{props.info.describe} Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eos reiciendis maiores? A voluptate vel praesentium? Dicta nemo repellat ab, id nostrum dolorum iusto repudiandae pariatur, delectus provident voluptate est?</PostDesc>
 

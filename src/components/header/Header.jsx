@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container,HeaderTitles,Span, Span1, Img} from './style'
-import img5 from '../../assets/img/img2.jpg'
+import img5 from '../../assets/img/img11.webp'
 const Header = () => {
   return (
     <Container>
@@ -8,8 +8,8 @@ const Header = () => {
 
         <HeaderTitles>
 
-            <Span>React & Node</Span>
-            <Span1>Blog</Span1>
+            <Span>Travel Around</Span>
+            <Span1>Uzbekistan</Span1>
 
         </HeaderTitles>
 
