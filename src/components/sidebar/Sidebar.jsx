@@ -9,7 +9,7 @@ export const Sidebar = () => {
 
             <SidebarTitle> ABOUT US </SidebarTitle>
             <Img src={img9} alt="" />
-            <P>Travel with us around the world easy and cheap. Consumers want to create itineraries, access travel guides, and book flights and hotel rooms conveniently. Your travel technology provider can translate whatever service you want to deliver into a web app. </P>
+            <P>Travel with us around the world easy and cheap. Consumers want to create itineraries, access travel guides, and book flights and hotel rooms conveniently. Make unforgettable memory with us. </P>
 
         </SidebarItem>
 

@@ -5,7 +5,7 @@ import img4 from '../../assets/img/img5.jpg'
 const Post = (props) => {
   return (
     <Container>
-      <Img src={props.info.img} alt="" />
+      <a  href="https://www.lonelyplanet.com/uzbekistan"target='blank'> <Img src={props.info.img} alt="" />  </a>
 
         <PostInfo>
             <PostCats>
@@ -15,7 +15,10 @@ const Post = (props) => {
             </PostCats>
 
             <PostTitle>
-                 {props.info.title}
+               
+                 <a style={{textDecoration: 'none', color: '#be9656'}} href="https://www.lonelyplanet.com/uzbekistan"target='blank'>   {props.info.title}   </a>
+
+                 
             </PostTitle>
             <hr />
             {/* <PostDate>{props.info.watched}</PostDate> */}
