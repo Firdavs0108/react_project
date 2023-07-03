@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
   
 `
 
+
 export const Img = styled.img`
 width:100%;
 height: 300px;
