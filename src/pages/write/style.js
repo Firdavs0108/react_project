@@ -9,8 +9,8 @@ export const Container = styled.div`
 `
 export const WriteImg= styled.img`
      margin-left: 150px;
-     width: 70vw;
-     height: 250px;
+     width: 80vw;
+     height: 350px;
      border-radius: 10px;
      object-fit: cover;
 

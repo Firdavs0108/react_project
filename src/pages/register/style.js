@@ -33,6 +33,7 @@ export const FormLabel = styled.label`
     margin: 10px 0;
     color: black;
     font-size: 18px;
+    font-weight: bold;
 `
 
 export const RegisterInput = styled.input`

@@ -17,12 +17,12 @@ color: #444;
 
 export const Span = styled.span`
 position:absolute;
-top: 18%;
+top: 15%;
 font-size: 20px;
 `
 export const Span1 = styled.span`
 position:absolute;
-top: 20%;
+top: 17%;
 font-size: 100px;
 
 `

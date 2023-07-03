@@ -26,7 +26,7 @@ width: 80%;
 border-top: 1px solid #a7a4a4;
 border-bottom: 1px solid #a7a4a4;
 font-family: 'Roboto Condensed', sans-serif;
-font-size: 12px;
+font-size: 15px;
 color: #222;
 font-weight: 600;
 line-height: 20px;
@@ -42,7 +42,7 @@ export const Img = styled.img`
 width: 285px;
 height: 250px;
 margin-top: 15px;
-margin-bottom: 15px
+margin-bottom: 15px;
 
 `
 
@@ -79,6 +79,9 @@ export const SidebarSocialList = styled.i`
 
 export const P = styled.p`
 font-family: 'Roboto Condensed', sans-serif;
+width: 75%;
+box-sizing:border-box;
+text-align: center;
 
 `
 
