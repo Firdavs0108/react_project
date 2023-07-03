@@ -34,14 +34,17 @@ export const FormLabel = styled.label`
     color: black;
     font-size: 18px;
     font-weight: bold;
+    
 `
 
 export const RegisterInput = styled.input`
     padding: 10px 0;
-    background-color: lightgreen;
+    background-color: antiquewhite;
     border: none;
     font-size: 13px;
     width: 250px;
+    border-radius: 20px;
+    text-align: center
 
 `
 

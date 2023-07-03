@@ -38,9 +38,11 @@ export const FormLabel = styled.label`
 
 export const LoginInput = styled.input`
     padding: 10px 0;
-    background-color: white;
+    background-color: antiquewhite;
     border: none;
     width: 250px;
+    border-radius: 20px;
+    text-align: center
 
 `
 
