@@ -53,10 +53,10 @@ export const SinglePostDate = styled.span`
   
 `
 export const SinglePostDesc = styled.p`
-color: #666;
-font-size: 18px;
-line-height:25px;
-::first-letter{
+    color: #666;
+    font-size: 18px;
+    line-height:25px;
+    ::first-letter{
     margin-left:20px;
     font-size: 30px;
     font-weight: 600;
